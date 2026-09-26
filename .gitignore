@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.sqlite3
+*.sqlite3-*
+.env
+.env.*
+*.local.json
+*.key
+.granola-api-key
+config.json
+state/
+private/
+transcripts/
+*.log

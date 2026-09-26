@@ -1,0 +1,10 @@
+{
+  "owner_email": "OWNER_EMAIL@example.invalid",
+  "activation_cutoff": "REPLACE_WITH_EXPLICIT_ACTIVATION_RFC3339_TIMESTAMP",
+  "dispatcher_thread": "REPLACE_WITH_VERIFIED_EXISTING_LOCAL_TASK_UUID",
+  "dispatcher_host": "local",
+  "codex_path": "/ABSOLUTE/PATH/TO/INSTALLED/Codex",
+  "state_dir": "/ABSOLUTE/PRIVATE/PARENT/granola-intake",
+  "max_pages": 2,
+  "max_wakes": 1
+}
