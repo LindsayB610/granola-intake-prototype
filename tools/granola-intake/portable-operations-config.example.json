@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "service_id": "my-granola-receiver",
+  "source_config": "/ABSOLUTE/OWNER-ONLY/PRIVATE/source-config.json",
+  "handoff_config": "/ABSOLUTE/OWNER-ONLY/PRIVATE/command-config.json",
+  "port": 8769,
+  "ngrok_executable": "/ABSOLUTE/PATH/TO/ngrok",
+  "public_url": "https://YOUR-RESERVED-NGROK-URL.ngrok.app/granola"
+}

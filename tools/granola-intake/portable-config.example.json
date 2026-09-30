@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "owner_email": "OWNER@example.invalid",
+  "state_dir": "/ABSOLUTE/PRIVATE/state",
+  "holding_root": "/ABSOLUTE/PRIVATE/holding",
+  "credential_path": "/ABSOLUTE/PRIVATE/granola-api-key",
+  "signing_secret_path": "/ABSOLUTE/PRIVATE/webhook-secret",
+  "source_policy": {
+    "max_pages": 40,
+    "max_page_bytes": 1048576,
+    "max_total_bytes": 8388608,
+    "total_timeout": 60
+  },
+  "event_types": ["note.generated"]
+}

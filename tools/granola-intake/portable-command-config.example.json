@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "holding_root": "/ABSOLUTE/OWNER-ONLY/PRIVATE/holding",
+  "state_dir": "/ABSOLUTE/OWNER-ONLY/PRIVATE/command-state",
+  "receipt_root": "/ABSOLUTE/OWNER-ONLY/PRIVATE/command-receipts",
+  "destination_id": "my-orchestrator",
+  "command": ["/ABSOLUTE/CLONE/tools/granola-intake/portable_command_receiver.py", "--config", "/ABSOLUTE/OWNER-ONLY/PRIVATE/command-config.json"],
+  "timeout_seconds": 30
+}
